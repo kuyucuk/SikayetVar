@@ -11,7 +11,12 @@ sitelink = open("sitelink.txt", "r")
 sitelink=sitelink.read()
 sitelink = str(sitelink).replace("https://", "")
 sitelink = sitelink.replace(".com/", ".com")
-marka="turk-telekom"
+marka="vodafone"
+
+conn = sqlite3.connect('database.db')
+c = conn.cursor()
+c.execute("CREATE TABLE IF NOT EXISTS MARKA(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
+
 
 class MySpider(scrapy.Spider):
     name = "link"
@@ -48,6 +53,7 @@ class MySpider(scrapy.Spider):
 
             with open("linkler.txt", "w", encoding="utf-8") as file:
                 file.write(str(liste))
+
             return 0
 
 
