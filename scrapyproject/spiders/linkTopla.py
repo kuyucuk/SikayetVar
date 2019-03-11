@@ -7,15 +7,13 @@ import os
 
 say=0
 
-sitelink = open("sitelink.txt", "r")
-sitelink=sitelink.read()
+sitelink= "www.sikayetvar.com"
 sitelink = str(sitelink).replace("https://", "")
 sitelink = sitelink.replace(".com/", ".com")
-marka="vodafone"
 
-conn = sqlite3.connect('database.db')
-c = conn.cursor()
-c.execute("CREATE TABLE IF NOT EXISTS MARKA(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
+marka = open("marka.txt", "r")
+marka = marka.read()
+print(marka)
 
 
 class MySpider(scrapy.Spider):
@@ -23,6 +21,15 @@ class MySpider(scrapy.Spider):
     start_urls = [
     "https://"+sitelink+"/"+marka+""
     ]
+
+    marka = marka.replace("-", "")
+    with open("marka.txt", "w", encoding="utf-8") as file:
+        file.write(marka)
+
+    conn = sqlite3.connect('database.db')
+    c = conn.cursor()
+    c.execute("CREATE TABLE IF NOT EXISTS " + str(
+        marka) + "(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
 
     def parse(self, response):
         with open("linkler.txt", "a", encoding="utf-8") as file:
@@ -47,7 +54,7 @@ class MySpider(scrapy.Spider):
             liste = str(liste).replace("']", "")
             liste = str(liste).replace("https", ",https")
             liste = str(liste).replace(",,", ",")
-            liste = liste[1:len(liste)-1]
+
 
             print(liste)
 

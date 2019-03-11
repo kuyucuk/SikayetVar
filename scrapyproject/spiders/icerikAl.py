@@ -7,10 +7,12 @@ import os
 
 exists = os.path.isfile('linkler.txt')
 if exists:
-    with open("linkler.txt", "a", encoding="utf-8") as file:
-
-        linkfile = open("linkler.txt")
-        alinanLinkler = linkfile.read()
+    linkfile = open("linkler.txt", "r")
+    alinanLinkler = linkfile.read()
+    alinanLinkler = alinanLinkler[1:len(alinanLinkler) - 1]
+    with open("linkler.txt", "w", encoding="utf-8") as file:
+        file.write(str(alinanLinkler))
+    file.close()
 
     import csv
 
@@ -30,9 +32,13 @@ print(linkDizi)
 
 say=0
 
+marka = open("marka.txt", "r")
+marka = marka.read()
+marka=marka.replace("-", "")
+
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
-c.execute("CREATE TABLE IF NOT EXISTS MARKA(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
+c.execute("CREATE TABLE IF NOT EXISTS "+str(marka)+"(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
 
 
 class MySpider(scrapy.Spider):
@@ -68,6 +74,7 @@ class MySpider(scrapy.Spider):
         with open("aciklamalar.txt", "a", encoding="utf-8") as file2:
             file2.write(str(say)+" "+aciklama+"\n\n")
 
-        c.execute('SELECT * FROM MARKA')
-        c.execute("INSERT INTO MARKA VALUES (?,?,?,?,?,?,?)", (str(sikayet_id), str(baslik), str(aciklama), str(kisi), str(goruntuleme), str(tarih), str(sitelink)))
+        c.execute('SELECT * FROM '+str(marka)+'')
+        c.execute("INSERT INTO "+str(marka)+" VALUES (?,?,?,?,?,?,?)", (str(sikayet_id), str(baslik), str(aciklama), str(kisi), str(goruntuleme), str(tarih), str(sitelink)))
         conn.commit()
+    #os.remove("marka.txt")
