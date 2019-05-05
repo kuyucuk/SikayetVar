@@ -78,4 +78,4 @@ class MySpider(scrapy.Spider):
         c.execute('SELECT * FROM '+str(marka)+'')
         c.execute("INSERT INTO "+str(marka)+" VALUES (?,?,?,?,?,?,?)", (str(sikayet_id), str(baslik), str(aciklama), str(kisi), str(goruntuleme), str(tarih), str(sitelink)))
         conn.commit()
-    #os.remove("marka.txt")
+    #os.remove("marka.txt") 
