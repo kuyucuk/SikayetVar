@@ -7,12 +7,15 @@ import os
 
 say=0
 
+
 sitelink= "www.sikayetvar.com"
 sitelink = str(sitelink).replace("https://", "")
 sitelink = sitelink.replace(".com/", ".com")
-
+"""
 marka = open("marka.txt", "r")
 marka = marka.read()
+"""
+marka = "turkcell"
 print(marka)
 
 
@@ -28,13 +31,13 @@ class MySpider(scrapy.Spider):
 
     conn = sqlite3.connect('database.db')
     c = conn.cursor()
-    c.execute("CREATE TABLE IF NOT EXISTS " + str(
-        marka) + "(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
+    c.execute("CREATE TABLE IF NOT EXISTS " + str(marka) + "(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")
 
     def parse(self, response):
         with open("linkler.txt", "a", encoding="utf-8") as file:
 
-            liste = response.xpath('//*[@id="gridListView"]/div/div/div[1]/div/h2/a/@href').extract()
+            #liste = response.xpath('//*[@id="gridListView"/div/div/div[1]/div/h2/a/@href').extract()
+            liste = response.xpath('//*[@id="gridListView"]/article/header/div/h2/a/@href').extract()
             liste = str(liste).replace("'/", "'https://"+sitelink+"/")
             liste = str(liste).replace("', '", ",")
             liste = str(liste).replace("']", "")
@@ -42,7 +45,12 @@ class MySpider(scrapy.Spider):
 
             file.write(str(liste))
 
+        next_url = str("https://" + sitelink + "/" + marka + "?page=" + str(int(response.xpath('//*[@id="complaint-list"]/section[2]/div/font/text()').extract_first()) + 1))
+        yield scrapy.Request(url=next_url, callback=self.parse, dont_filter=True)
 
+        return 0
+
+"""
         if response.xpath("/html/body/div[1]/div/a["+str(len(response.xpath('/html/body/div[1]/div/a/@href').extract()))+"]/@class").extract() != []:
             next_url = "https://" + sitelink + response.xpath("/html/body/div[1]/div/a["+str(len(response.xpath('/html/body/div[1]/div/a/@href').extract()))+"]/@href").extract()[0]
             yield scrapy.Request(url=next_url, callback=self.parse, dont_filter=True)
@@ -62,5 +70,5 @@ class MySpider(scrapy.Spider):
                 file.write(str(liste))
 
             return 0
-
+"""
 

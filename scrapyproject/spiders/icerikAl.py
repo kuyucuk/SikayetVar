@@ -36,6 +36,7 @@ marka = open("marka.txt", "r")
 marka = marka.read()
 marka=marka.replace("-", "")
 
+#marka="a101"
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
 c.execute("CREATE TABLE IF NOT EXISTS "+str(marka)+"(sikayet_id TEXT, baslik TEXT, icerik TEXT, kisi TEXT, goruntulenme TEXT, tarih TEXT, link TEXT)")

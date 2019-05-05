@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c47f0d0-8fa4-4602-80ca-3d3996c345e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spiders/sele.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calistir.py" beforeDir="false" afterPath="$PROJECT_DIR$/../calistir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrapyproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scrapyproject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/sneakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sneakers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/sneakerslinkler.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sneakerslinkler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/wordchanger.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/wordchanger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/calistir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/icerikAl.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/icerikAl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/linkTopla.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/linkTopla.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/alcatel/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/alcatel/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/apple/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/apple/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/arcelik/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/arcelik/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/bimcell/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/bimcell/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/netgsm/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/netgsm/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/pttcell/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/pttcell/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/sakarya-universitesi/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/sakarya-universitesi/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/sakarya-universitesi/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/sakarya-universitesi/marka.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/samsung/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/samsung/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/turk-telekom/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/turk-telekom/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/turkcell/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/turkcell/linkler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/vestel/aciklamalar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/şikayet deposu/vestel/linkler.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,25 +42,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calistir.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../calistir.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiders/linkTopla.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="9" />
+            <state relative-caret-position="697">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sele.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spiders/sele.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiders/icerikAl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="1292">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spiders/kelimeCikar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2464">
+              <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,9 +100,19 @@
       <find>cins</find>
       <find>marka</find>
       <find>brand</find>
+      <find>fir</find>
+      <find>müşter</find>
+      <find>hizmet</find>
+      <find>internet</find>
+      <find>türk</find>
+      <find>telekom</find>
+      <find>şebeke</find>
+      <find>ben</find>
+      <find>tl</find>
     </findStrings>
     <replaceStrings>
       <replace>sneaker</replace>
+      <replace>word</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -89,18 +133,23 @@
         <option value="$PROJECT_DIR$/spiders/sneakers.py" />
         <option value="$PROJECT_DIR$/../../ScrapyProje/scrapyproject/spiders/sneakers.py" />
         <option value="$PROJECT_DIR$/spiders/sele.py" />
+        <option value="$PROJECT_DIR$/spiders/icerikAl.py" />
+        <option value="$PROJECT_DIR$/spiders/dene.py" />
+        <option value="$PROJECT_DIR$/spiders/a.py" />
+        <option value="$PROJECT_DIR$/spiders/linkTopla.py" />
+        <option value="$PROJECT_DIR$/spiders/kelimeCikar.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="210" />
-    <option name="y" value="382" />
-    <option name="width" value="1092" />
-    <option name="height" value="1003" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-34" />
+    <option name="y" value="127" />
+    <option name="width" value="977" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -149,26 +198,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sele">
-    <configuration name="calistir (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scrapyproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../calistir.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="sele" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kelimeCikar">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapyproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,31 +211,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/sele.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scrapyproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="sneakerslinkler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dene" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapyproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,13 +232,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/sneakerslinkler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/dene.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="wordchanger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="icerikAl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapyproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,26 +253,71 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/wordchanger.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/icerikAl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kelimeCikar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapyproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/kelimeCikar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linkTopla" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapyproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/linkTopla.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.calistir (1)" />
-      <item itemvalue="Python.setup" />
-      <item itemvalue="Python.sneakerslinkler" />
-      <item itemvalue="Python.wordchanger" />
-      <item itemvalue="Python.sele" />
+      <item itemvalue="Python.linkTopla" />
+      <item itemvalue="Python.icerikAl" />
+      <item itemvalue="Python.dene" />
+      <item itemvalue="Python.a" />
+      <item itemvalue="Python.kelimeCikar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sele" />
-        <item itemvalue="Python.calistir (1)" />
-        <item itemvalue="Python.wordchanger" />
-        <item itemvalue="Python.sneakerslinkler" />
-        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.kelimeCikar" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python.dene" />
+        <item itemvalue="Python.icerikAl" />
+        <item itemvalue="Python.linkTopla" />
       </list>
     </recent_temporary>
   </component>
@@ -321,29 +385,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="382" width="1092" height="1003" extended-state="0" />
+    <frame x="-34" y="127" width="977" height="883" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1821632" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008264" side_tool="true" weight="0.35023585" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900944" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" weight="0.37617925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23773174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917355" weight="0.42407808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900944" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008264" side_tool="true" weight="0.35023585" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="database" />
@@ -353,157 +416,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="lib" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spiders/sneakers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../calistir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/wordchanger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7089">
-          <caret line="419" column="41" selection-start-line="419" selection-start-column="41" selection-end-line="419" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="58" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/wordchanger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6069">
-          <caret line="357" column="23" selection-start-line="357" selection-start-column="23" selection-end-line="357" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../calistir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/wordchanger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6069">
-          <caret line="357" column="23" selection-start-line="357" selection-start-column="23" selection-end-line="357" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../calistir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/wordchanger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="19" lean-forward="true" selection-start-line="198" selection-start-column="19" selection-end-line="198" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sneakersbulucu.py" />
     <entry file="file://$PROJECT_DIR$/sneakers.py" />
     <entry file="file://$PROJECT_DIR$/../../MailVeDosyaGonder/AktifDatabase.py">
@@ -541,59 +453,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py">
+    <entry file="file://$PROJECT_DIR$/spiders/sneakerslinkler.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/sneakers.py" />
+    <entry file="file://$PROJECT_DIR$/../setup.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/wordchanger.py" />
+    <entry file="file://$PROJECT_DIR$/../calistir.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/sele.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/dene.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/a.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/linkTopla.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="697">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sneakers.py">
+    <entry file="file://$PROJECT_DIR$/spiders/icerikAl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="117" column="118" selection-start-line="117" selection-start-column="118" selection-end-line="117" selection-end-column="118" />
+        <state relative-caret-position="1292">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../setup.py">
+    <entry file="file://$PROJECT_DIR$/spiders/kelimeCikar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/wordchanger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="-2464">
+          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../calistir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/sele.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
